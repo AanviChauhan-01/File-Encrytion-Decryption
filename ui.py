@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
-import encryption_script as enc
+import encryptdecrypt as enc
 
 def encrypt():
     key = enc.generate_key()
