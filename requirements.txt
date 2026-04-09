@@ -1,1 +1,5 @@
 Cryptography
+
+- Python 3.x
+- cryptography library
+- Any Python IDE (VS Code, PyCharm, or Python IDLE)
