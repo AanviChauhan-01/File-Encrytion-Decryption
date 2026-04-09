@@ -60,15 +60,15 @@ def decrypt_file(encrypted_file, key):
 
     print(f"\nFile {encrypted_file} decrypted successfully!")
 
-
-#Generate and save the key
-key = generate_key()
-print("Generated Key:")
-print(key)  #generated encryption key
-save_key(key)
-
-#Encrypt a file 
-encrypted_data = encrypt_file("my_file.txt", key)
-
-#Decrypt the file 
-decrypt_file("my_file.txt.enc", key)
+if __name__ == "__main__":
+    #Generate and save the key
+    key = generate_key()
+    print("Generated Key:")
+    print(key)  #generated encryption key
+    save_key(key)
+    
+    #Encrypt a file 
+    encrypted_data = encrypt_file("my_file.txt", key)
+    
+    #Decrypt the file 
+    decrypt_file("my_file.txt.enc", key)
